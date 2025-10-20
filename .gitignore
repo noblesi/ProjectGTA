@@ -1,0 +1,29 @@
+# Unreal basics
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+.vscode/
+.vs/
+*.suo
+*.tmp
+*.user
+*.log
+*.pdb
+*.opendb
+
+# Build artifacts
+Build/*/Binaries/
+Build/*/Intermediate/
+
+# OS / tools
+.DS_Store
+Thumbs.db
+
+# Keep these!
+!Config/**
+!Content/**
+!Source/**
+!Plugins/**
+!*.uproject
